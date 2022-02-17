@@ -17,11 +17,16 @@ return new class extends Migration
             $table->id();
             $table->string('question');
             $table->bigInteger('answer_id')->unsigned();
+            $table->bigInteger('response_id')->unsigned();
             $table->string('image_path');
             $table->timestamps();
 
             $table->foreign('answer_id')->references('id')->
                 on('answers')->onDelete('cascade')->
+                onUpdate('cascade');
+
+            $table->foreign('response_id')->references('id')->
+                on('responses')->onDelete('cascade')->
                 onUpdate('cascade');
         });
     }

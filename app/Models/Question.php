@@ -16,4 +16,11 @@ class Question extends Model
     {
         return $this->hasOne(Answer::class);
     }
-}
+    
+    /**
+     * Get the responses that belong to the question.
+     */
+    public function responses()
+    {
+        return $this->hasMany(Response::class);
+    }
