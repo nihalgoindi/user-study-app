@@ -16,7 +16,13 @@ return new class extends Migration
         Schema::create('responses', function (Blueprint $table) {
             $table->id();
             $table->string('response');
+            $table->bigInteger('account_id')->unsigned();
             $table->timestamps();
+
+            $table->foreign('account_id')->references('id')->
+                on('accounts')->onDelete('cascade')->
+                onUpdate('cascade');
+  
         });
     }
 

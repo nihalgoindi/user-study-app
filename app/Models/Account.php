@@ -13,11 +13,19 @@ class Account extends Model
 
     /**
      * Get the user the the account belongs to.
-     * */
-     
+     * 
+     */
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    /**
+     * An account can comment on many things.
+     */
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
     }
     
 }
