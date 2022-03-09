@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Question;
 use Illuminate\Http\Request;
 
 class QuestionController extends Controller
@@ -13,6 +14,7 @@ class QuestionController extends Controller
      */
     public function index()
     {
+        $questions = Question::all();
         return view('questions.index', ['questions' => $questions]);
     }
 
@@ -23,7 +25,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        //
+        return view('questions.create');
     }
 
     /**
@@ -34,7 +36,19 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title' => 'required|max:255',
+            'image' => 'required|mimes:jpg,png,jeg|max:5048',
+        ]);
+
+        //gives the image a name of title-uniqid.extension and places it in the folder
+        $ImageName = $request->title . '-' . uniqid() . $request->image->extension();
+        $request->image->move(public_path('question_images'), $ImageName);
+
+        $question = Question::create([
+            'title' => $request->input('title'),
+            'image_path' => $ImageName,
+        ]);
     }
 
     /**

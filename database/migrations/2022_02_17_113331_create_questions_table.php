@@ -15,14 +15,11 @@ return new class extends Migration
     {
         Schema::create('questions', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('answer_id')->unsigned();
-            $table->bigInteger('response_id')->unsigned();
+            $table->string('title');
+            $table->bigInteger('response_id')->unsigned()->nullable();
             $table->string('image_path');
             $table->timestamps();
 
-            $table->foreign('answer_id')->references('id')->
-                on('answers')->onDelete('cascade')->
-                onUpdate('cascade');
 
             $table->foreign('response_id')->references('id')->
                 on('responses')->onDelete('cascade')->

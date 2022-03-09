@@ -9,6 +9,8 @@ class Question extends Model
 {
     use HasFactory;
 
+    protected $guarded = [];
+
      /**
      * The answer that belongs to this user
      */
@@ -24,3 +26,4 @@ class Question extends Model
     {
         return $this->hasMany(Response::class);
     }
+}

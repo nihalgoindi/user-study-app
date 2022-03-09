@@ -7,7 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Response extends Model
 {
-    use HasFactory;
+    use HasFactory;#
+    
+    protected $guarded = [];
 
     /**
      * Get the question that this response belongs to.
