@@ -45,7 +45,254 @@
                 <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
                     Stock 2
                 </h2>
-                <img class="pb-5" src="https://drive.google.com/file/d/1h60G1MTTOOcV88EAy6lgPZ4sTXuqdyUH/view?usp=sharing" width="500" height="500" alt="">
+                <img class="pb-5" src="https://i.postimg.cc/fbNkHx50/Q2.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 3
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/NMW0HmyM/Q3.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 4
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/wj0TkStn/Q4.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 5
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/fyNNsKtx/Q5.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 6
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/y6yq903b/Q6.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 7
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/MGQNGB8t/Q7.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 8
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/0jcH4dp5/Q8.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 9
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/cJwkWNQb/Q9.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 10
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/Y9xX4fDN/Q10.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 11
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/0j2V7MhT/Q11.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 12
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/9fdbSY23/Q12.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 13
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/wvFVxx30/Q13.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 14
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/G37QZpWp/Q14.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 15
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/G35FX5D8/Q15.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 16
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/7hG2vqzC/Q16.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 17
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/pXjFqXx4/Q17.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 18
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/v8kqSzxB/Q18.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 19
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/xdftbphs/Q19.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 20
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/y8BTwr1V/Q20.png" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 21
+                </h2>
+                <img class="pb-5" src="https://i.postimg.cc/rF2GrYtS/Q21.png" width="500" height="500" alt="">
                 <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
                 <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
                 <input type="checkbox" id="noTrend" name="response[]" value="NT">
