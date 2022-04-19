@@ -20,12 +20,10 @@ class Account extends Model
         return $this->belongsTo(User::class);
     }
 
-    /**
-     * An account can comment on many things.
-     */
-    public function comments()
+
+    public function response()
     {
-        return $this->hasMany(Comment::class);
+        return $this->hasMany(Response::class);
     }
     
 }

@@ -11,13 +11,7 @@ class Response extends Model
     
     protected $guarded = [];
 
-    /**
-     * Get the question that this response belongs to.
-     */
-    public function question()
-    {
-        return $this->belongsTo(Question::class);
-    }
+
 
     public function account()
     {

@@ -11,12 +11,14 @@
 
 @endsection
 @section('content')
-    <div class=" w-4/5 mx-auto pt-5 py-15 border-bo text-center">
-        <a href={{ route('login') }} class="uppercase bg-blue-500 hover:bg-blue-600 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
-            Log In
-        </a>
-        <a href={{ route('register') }} class="uppercase bg-blue-500 hover:bg-blue-600 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
-            Register
-        </a> 
+    <div class="h-screen">
+        <div class=" sm:grid grid-cols-2 gap-20 w-4/5 mx-auto pt-5 py-15 border-b border-gray-200 py-15 border-bo text-center">
+            <a href={{ route('login') }} class="uppercase bg-blue-500 hover:bg-blue-600 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+                Log In
+            </a>
+            <a href={{ route('register') }} class="uppercase bg-blue-500 hover:bg-blue-600 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+                Register
+            </a> 
+        </div>
     </div>
 @endsection

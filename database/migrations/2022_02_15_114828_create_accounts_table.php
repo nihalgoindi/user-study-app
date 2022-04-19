@@ -15,10 +15,8 @@ return new class extends Migration
     {
         Schema::create('accounts', function (Blueprint $table) {
             $table->id();
-            $table->string('username');
+            $table->string('name');
             $table->bigInteger('user_id')->unsigned();
-            $table->bigInteger('time');
-            $table->boolean('isCompleted')->default(false);
             $table->timestamps();
 
             $table->foreign('user_id')->references('id')->

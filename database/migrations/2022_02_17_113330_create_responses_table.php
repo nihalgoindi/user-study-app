@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('response');
             $table->bigInteger('account_id')->unsigned();
+            $table->string('time', 255)->nullable();
             $table->timestamps();
 
             $table->foreign('account_id')->references('id')->
