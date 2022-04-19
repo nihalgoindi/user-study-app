@@ -32,7 +32,7 @@
                 <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
                     Stock 1
                 </h2>
-                <img class="pb-5" src="https://drive.google.com/file/d/1h60G1MTTOOcV88EAy6lgPZ4sTXuqdyUH/view?usp=sharing" width="500" height="500" alt="">
+                <img class="pb-5" src="https://i.postimg.cc/pdwCcc4J/Q1.png" width="500" height="500" alt="">
                 <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
                 <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
                 <input type="checkbox" id="noTrend" name="response[]" value="NT">
