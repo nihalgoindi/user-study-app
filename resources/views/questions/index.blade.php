@@ -27,12 +27,12 @@
     
 
     <div class="container grid grid-cols-3 px-1 py-5 mx-auto">
-        @foreach ($questions as $question )
+        
             <div class="w-full rounded">
                 <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
-                    {{ $question->title }}
+                    Stock 1
                 </h2>
-                <img class="pb-5" src="{{ asset('question_images/' . $question->image_path) }}" width="500" height="500" alt="">
+                <img class="pb-5" src="https://drive.google.com/file/d/1h60G1MTTOOcV88EAy6lgPZ4sTXuqdyUH/view?usp=sharing" width="500" height="500" alt="">
                 <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
                 <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
                 <input type="checkbox" id="noTrend" name="response[]" value="NT">
@@ -40,7 +40,20 @@
                 <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
                 <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
             </div>
-        @endforeach
+
+            <div class="w-full rounded">
+                <h2 class="text-gray-700 font-bold text-6xl pb-5 py-11">
+                    Stock 2
+                </h2>
+                <img class="pb-5" src="https://drive.google.com/file/d/1h60G1MTTOOcV88EAy6lgPZ4sTXuqdyUH/view?usp=sharing" width="500" height="500" alt="">
+                <input type="checkbox" id="upwardsTrend" name="response[]" value="UT">
+                <label class = "text-gray-700 font-bold" for="upwardsTrend"> Upwards Trend</label><br>
+                <input type="checkbox" id="noTrend" name="response[]" value="NT">
+                <label class = "text-gray-700 font-bold" for="noTrend"> No Trend</label><br>
+                <input type="checkbox" id="downwardsTrend" name="response[]" value="DT">
+                <label class = "text-gray-700 font-bold" for="downwardsTrend"> Downwards Trend</label><br><br>
+            </div>
+        
         <input type="hidden" id="storeTime" value="" name="time">
     </div>
 
