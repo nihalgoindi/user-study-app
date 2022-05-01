@@ -329,8 +329,7 @@
 
     let interval = null;
 
-    //Define var to hold timer status
-    let status = "stopped";
+    
 
     //Determines when to increment
     function timer() {
@@ -374,8 +373,7 @@
 
     function startTimer() {
         //Start the timer (by calling the setInterval() function)
-        interval = window.setInterval(timer, 1000);
-        status = "started";
+        interval = window.setInterval(timer, 1000);   
 
     }
 </script>
